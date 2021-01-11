@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="~/Strona_glowna.aspx" title="strona główna"  description="">
+
+	  <siteMapNode url="~/Dodaj/dodaj.aspx" title="dodaj dane"  description="">
+		  <siteMapNode url="~/Dodaj/Dodaj_czesc.aspx" title="Część"  description="" />
+		  <siteMapNode url="~/Dodaj/Dodaj_dzial.aspx" title="Dział"  description="" />
+		  <siteMapNode url="~/Dodaj/Dodaj_linie.aspx" title="Linię"  description="" />
+    <siteMapNode url="~/Dodaj/Dodaj_marka.aspx" title="Markę"  description="" />
+    <siteMapNode url="~/Dodaj/Dodaj_model.aspx" title="Model"  description="" />
+		  <siteMapNode url="~/Dodaj/Dodaj_pojazd.aspx" title="Pojazd"  description="" />
+		  <siteMapNode url="~/Dodaj/Dodaj_pracownika.aspx" title="Pracownika"  description="" />
+	  <siteMapNode url="~/Dodaj/Dodaj_przystanek.aspx" title="Przystanek"  description="" />
+	  <siteMapNode url="~/Dodaj/Dodaj_przystanek_do_trasy.aspx" title="Przystanek do trasy"  description="" />
+	  <siteMapNode url="~/Dodaj/Dodaj_stanowisko.aspx" title="Stanowisko"  description="" />
+	  <siteMapNode url="~/Dodaj/Dodaj_stanowisko_do_działu.aspx" title="Stanowisko do działu"  description="" />
+	  <siteMapNode url="~/Dodaj/Dodaj_stawke.aspx" title="Stawkę"  description="" />
+	  <siteMapNode url="~/Dodaj/Dodaj_trase.aspx" title="Trasę"  description="" />
+	  </siteMapNode>
+
+	  <siteMapNode url="~/Przegladaj/przegladaj.aspx" title="przegladaj dane"  description="">
+		  <siteMapNode url="~/Przegladaj/Przegladaj_naprawy.aspx" title="Naprawy"  description="" />
+		  <siteMapNode url="~/Przegladaj/Przegladaj_pojazd.aspx" title="Pojazdy"  description="" />
+		  <siteMapNode url="~/Przegladaj/Przegladaj_pracownikow.aspx" title="Pracowników"  description="" />
+	  <siteMapNode url="~/Przegladaj/Sprawdź_przystanki.aspx" title="Przystanki"  description="" />
+	  <siteMapNode url="~/Przegladaj/Przegladaj_trasy.aspx" title="Trasy"  description="" />
+	  </siteMapNode>
+	  
+	  
+  </siteMapNode>
+</siteMap>

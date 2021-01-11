@@ -1,0 +1,65 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Wzorcowa.master.cs" Inherits="Aplikacja_dyplomowa.Wzorcowa" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>
+       
+    </title>
+    <link href="Styles/Wyglad.css" rel="stylesheet" type="text/css"/>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="global">
+			<div id="container">
+				<div id="header">
+					<div id="upmenu">
+						<ul>
+							<li><a href="Strona_glowna.aspx">STRONA GŁÓWNA</a>
+                                <asp:LoginStatus ID="LoginStatus1" runat="server" Height="20px" LogoutAction="Redirect" />
+                                </li>
+						        <asp:LoginName ID="LoginName1" runat="server" />
+                            </li>
+						</ul>
+					    <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+					</div>
+					<div id="menu">
+                        <asp:Image ID="Image2" ImageUrl="Zdjęcia/Beznazwy.png" runat="server" />
+			<!--
+						<ul>
+						<li><a href="~/Dodaj/Dodaj_marka.aspx">NOWA MARKA</a></li>		
+						<li><a href="~/Dodaj/Dodaj_linie.aspx">NOWA LINIA</a></li>
+								<li><a href="~/Dodaj/Dodaj_pojazd.aspx">NOWY POJAZD</a></li>
+								<li><a href="~/Dodaj/Dodaj_pracownika.aspx">NOWY PRACOWNIK</a></li>
+								<li><a href="~/Dodaj/Dodaj_przystanek_do_linii.aspx">NOWY PRZYSTANEK</a></li>
+								<li><a href="~/Przeglądaj/Przegladaj_naprawy.aspx">NAPRAWY</a></li>
+								<li><a href="~/Przeglądaj/Przegladaj_pojazd.aspx">POJAZDY</a></li>
+								<li><a href="~/Przeglądaj/Przegladaj_pracownikow.aspx">PRACOWNICY</a></li>
+								<li><a href="~/Przeglądaj/Przegladaj_trasy.aspx">TRASY</a></li>
+						</ul>
+			-->		    
+					    <asp:Menu ID="Menu1" runat="server" BackColor="#B5C7DE" DataSourceID="SiteMapDataSource1" DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="0.8em" ForeColor="#284E98" Orientation="Horizontal" StaticDisplayLevels="2" StaticSubMenuIndent="10px">
+                            <DynamicHoverStyle BackColor="#284E98" ForeColor="White" />
+                            <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                            <DynamicMenuStyle BackColor="#B5C7DE" />
+                            <DynamicSelectedStyle BackColor="#507CD1" />
+                            <StaticHoverStyle BackColor="#284E98" ForeColor="White" />
+                            <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                            <StaticSelectedStyle BackColor="#507CD1" />
+                        </asp:Menu>
+					    
+					</div>
+				</div>
+			</div>
+				<div id="content">
+		<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+				</div>
+			 <div class="footer"><h6>Praca dyplomowa - Dominika Śniegocka - przeprowadzona pod opieką dr hab. inż. Krzysztofa Pieczarki - WWSIS </h6></div>
+		</div>
+    </form>
+</body>
+</html>

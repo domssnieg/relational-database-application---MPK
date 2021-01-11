@@ -1,0 +1,144 @@
+﻿a, abbr, address, article, aside, audio, b, blockquote, body, canvas,
+caption, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset,
+figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup,
+html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav,
+object, ol, p, pre, q, samp, section, small, span, strong, sub, summary,
+sup, table, tbody, td, tfoot, th, thead, time, tr, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-weight: inherit;
+    font-style: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, canvas, details, figcaption, figure, footer, header,
+hgroup, menu, nav, section, summary {
+    display: block;
+}
+
+a, ins, del {
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+body {
+    background-repeat: repeat-x;
+    background-color:white;
+}
+
+
+#container {
+    position:relative;
+    width: 100%;
+    margin: 0 auto;
+    top: -4px;
+    left: -4px;
+}
+
+#content {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#jeden {
+    width: 50%;
+    float: left;
+}
+
+#dwa {
+    width: 50%;
+    float: left;
+}
+
+#trzy {
+    width: 50%;
+    float: left;
+}
+
+#cztery {
+    width: 50%;
+    float: left;
+}
+.footer {
+    background-color: aliceblue;
+    margin: 15px 0px;
+    color: cadetblue;
+    height: 54px;
+    font-size: 10px;
+    text-align: right;
+    border-top: 1px solid #00a0fd;
+}
+
+#global {
+    color: #1979a9;
+    width: 100%;
+    position: absolute;
+    text-align: left;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+#menu {
+    background-color: #5ce1e6;
+    height: 52px;
+    line-height: 51px;
+    width: 100%
+}
+
+#menu img {
+    width: 136px;
+    height: 52px;
+}
+
+#menu a {
+    color: white;
+}
+
+#menu ul {
+    float: right;
+}
+
+#menu ul li {
+    display: inline;
+    padding: 0 10px;
+}
+
+#menu ul li:hover {
+    background-color: #5ce1e6;
+    padding: 5px 10px 16px 10px;
+}
+
+#upmenu {
+    color: #5ce1e6;
+    height: 51px;
+    line-height: 51px;
+}
+
+#upmenu a {
+    color: #279bd1;
+    font:bold;
+}
+
+#upmenu ul {
+    float: right;
+}
+
+#upmenu ul li {
+    display: inline;
+    padding: 0 0 0 10px;
+}
+
+#upmenu {
+    font-family: Arial;
+    font-size: 12px;
+}
